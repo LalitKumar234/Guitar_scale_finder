@@ -1,0 +1,54 @@
+html {
+    height: 100%;
+}
+
+*{
+    font-family: cursive;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    /* background-image: linear-gradient(rgba(37, 37, 37, 0.911),rgba(77, 66, 66, 0.75)), url(https://images.pexels.com/photos/1407322/pexels-photo-1407322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+p{
+    text-align: center;
+    padding: 30px;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(54, 54, 54);
+    background-color:rgb(238, 218, 218);
+}
+#btn{
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    
+}
+select{
+    border: 1px solid black;
+    box-shadow: 8px 10px 26px 0px rgba(0,0,0,0.75);
+    width: 30%;
+    
+    
+    
+}
+select:hover{
+    background-color: rgb(243, 231, 215);
+}
